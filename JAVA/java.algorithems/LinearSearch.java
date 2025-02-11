@@ -4,7 +4,7 @@ public class LinearSearch {
         int nums[] = { 4, 8, 10, 22, 39, 55 };
         int target = 13;
 
-        int result = Linearsearch(nums, target);
+        int result = linearsearch(nums, target);
 
         if (result != -1)
             System.out.println("Target Found At :- " + result + " index");
@@ -12,7 +12,7 @@ public class LinearSearch {
             System.out.println("Target Not Found");
     }
 
-    public static int Linearsearch(int[] nums, int target) {
+    public static int linearsearch(int[] nums, int target) {
 
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == target)
